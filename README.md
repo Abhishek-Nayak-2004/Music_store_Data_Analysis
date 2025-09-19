@@ -17,7 +17,7 @@ This beginner-friendly project helped me practice essential SQL skills while gai
 ## 📂 Project Files  
 1. `Music_Store_database.sql` → Database schema & data  
 2. `music_analysis.sql` → SQL queries for analysis  
-3. `README.md` → Project documentation  
+3. `Music Store Analysis-Questions.pdf` → Project Questions
 
 ---
 
