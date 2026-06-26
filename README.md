@@ -7,7 +7,7 @@ A structured SQL-based analysis of a digital music store database. This project 
 
 ---
 
-## 📁 Database Schema
+## Database Schema
 
 The analysis is built on a relational database with the following key tables:
 
@@ -24,9 +24,9 @@ The analysis is built on a relational database with the following key tables:
 
 ---
 
-## 🔍 Business Questions Answered
+## Business Questions Answered
 
-### 🟢 Easy
+### Easy
 | # | Question | Technique |
 |---|----------|-----------|
 | 1 | Who is the senior-most employee based on job title? | `ORDER BY`, `LIMIT` |
@@ -35,14 +35,14 @@ The analysis is built on a relational database with the following key tables:
 | 4 | Which city generated the most revenue? *(for promotional festival planning)* | `SUM`, `GROUP BY` |
 | 5 | Who is the best customer by total spending? | `JOIN`, `SUM`, `GROUP BY` |
 
-### 🟡 Intermediate
+### Intermediate
 | # | Question | Technique |
 |---|----------|-----------|
 | 6 | Return email, name of all Rock music listeners ordered alphabetically | `JOIN`, Subquery, `DISTINCT` |
 | 7 | Which are the top 10 rock bands by track count? | Multi-table `JOIN`, `COUNT`, `GROUP BY` |
 | 8 | Which tracks are longer than the average song length? | Subquery with `AVG` |
 
-### 🔴 Advanced
+### Advanced
 | # | Question | Technique |
 |---|----------|-----------|
 | 9 | How much has each customer spent on the best-selling artist? | CTE, Multi-join, `SUM` |
@@ -51,7 +51,7 @@ The analysis is built on a relational database with the following key tables:
 
 ---
 
-## 💡 Key Insights Uncovered
+## Key Insights Uncovered
 
 - **Top revenue city** identified for targeted promotional event planning
 - **Best customer** ranked by cumulative invoice spend
@@ -62,7 +62,7 @@ The analysis is built on a relational database with the following key tables:
 
 ---
 
-## 🧠 SQL Concepts Demonstrated
+## SQL Concepts Demonstrated
 
 - `JOIN` across 5+ tables in a single query
 - Subqueries (correlated and non-correlated)
@@ -73,7 +73,7 @@ The analysis is built on a relational database with the following key tables:
 - `DISTINCT` for deduplication
 - Multi-level `GROUP BY` and `ORDER BY`
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 📦 music-store-sql-analysis
@@ -84,14 +84,14 @@ The analysis is built on a relational database with the following key tables:
 
 ---
 
-## 👤 Author
+## Author
 
 **Abhishek Nayak**  
 GitHub: [@Abhishek-Nayak-2004](https://github.com/Abhishek-Nayak-2004)
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE). 
 
